@@ -56,18 +56,27 @@
     <Compile Include="Migrations\201809302015113_Initial Migration.Designer.cs">
       <DependentUpon>201809302015113_Initial Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810160122296_SongDetails.cs" />
+    <Compile Include="Migrations\201810160122296_SongDetails.Designer.cs">
+      <DependentUpon>201810160122296_SongDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Song.cs" />
     <Compile Include="MusicPlayerDataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809302015113_Initial Migration.resx">
       <DependentUpon>201809302015113_Initial Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810160122296_SongDetails.resx">
+      <DependentUpon>201810160122296_SongDetails.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

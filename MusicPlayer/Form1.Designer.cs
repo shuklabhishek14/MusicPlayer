@@ -33,6 +33,9 @@
             this.myFavoriteSongsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.upload = new System.Windows.Forms.Button();
+            this.browse = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
@@ -75,6 +78,30 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // upload
+            // 
+            this.upload.Location = new System.Drawing.Point(398, 289);
+            this.upload.Name = "upload";
+            this.upload.Size = new System.Drawing.Size(75, 23);
+            this.upload.TabIndex = 4;
+            this.upload.Text = "Upload";
+            this.upload.UseVisualStyleBackColor = true;
+            this.upload.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // browse
+            // 
+            this.browse.Location = new System.Drawing.Point(285, 289);
+            this.browse.Name = "browse";
+            this.browse.Size = new System.Drawing.Size(75, 23);
+            this.browse.TabIndex = 5;
+            this.browse.Text = "Browse";
+            this.browse.UseVisualStyleBackColor = true;
+            this.browse.Click += new System.EventHandler(this.browse_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
@@ -89,6 +116,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 601);
+            this.Controls.Add(this.browse);
+            this.Controls.Add(this.upload);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -111,6 +140,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.Button upload;
+        private System.Windows.Forms.Button browse;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
