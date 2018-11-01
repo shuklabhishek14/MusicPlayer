@@ -16,6 +16,8 @@ namespace MusicPlayerData.Models
         public string Artist { get; set; }
         public string Album { get; set; }
         public string Lyrics { get; set; }
-        public string Genre { get; set; }
+        public string Category { get; set; }
+        public DateTime YearOfRelease {get; set;}
+        public byte[] AlbumCover { get; set; }
     }
 }

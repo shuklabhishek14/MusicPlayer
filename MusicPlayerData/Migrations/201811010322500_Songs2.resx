@@ -117,21 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>13, 18</value>
-  </metadata>
-  <data name="axWindowsMediaPlayer1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtwAAAAIB
-        AAAAAQAAAAAAAAAAAAAAAKIAAAAAAwAACAAAAAAABQAAAAAAAADwPwMAAAAAAAUAAAAAAAAAAAAIAAIA
-        AAAAAAMAAQAAAAsA//8DAAAAAAALAP//CAACAAAAAAADADIAAAALAAAACAAKAAAAZgB1AGwAbAAAAAsA
-        AAALAAAACwD//wsA//8LAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAALAAAAwAcAAGEC
-        AAAL
-</value>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAM1YzW7jNhC+F+g7CDq1QNZMspc2kHeROPEiaBwHcXaBHmlp7BClSC1JGfaz9dBH6it0qH/Rv7KTtvBFHpHfDL8hvxnq7z//Cj4vY+4tQGkmRd+/6J37HohQRkzM+35qZh9+8T9/+vGH4C6Kl963ctxHOw5nCt33X41JrgjR4SvEVPdiFiqp5cz0QhkTGklyeX7+K7m4IIAQPmJ5XvCcCsNiyP7g34EUISQmpXwkI+C6sOObSYbqPdIYdEJD6PujVLPwidMVqFtqqO9dc0YxjAnwme9RIaShBoO8+qphYpQU80mCBspfVgnguBnlGorgr+rhh67j/NKug9QTS6gw1UbGHQEvPhbEEHf6UfT6FXFI3R1SbFZ21Rl9yBBy4Xuuo6sBV3bQGrO9PBc9O+3Mc16eVXsBt4z9nXmDlJtUQV9AahTlZ95TOuUs/A1WL/IPEH2Rct4MEEPEdy0Dmp6UTECZ1TPMGmHfR75H2nOJO7ma6szLF/clZfj8iDHQKYdqG5C9EPapBMH9xCyHI7p8ADE3r0gaXfrekC0hKi0F8lfB8BjhJKPSvY7wABgQxnr5t3yVfm6YoGp1mJ/dwEO6kIqZagU3UnKgojPr18owbd6dh2s+TeN39/KwUizU759UamAubR7f2dHvQNV49gyYWV1lGhUBXpg9J11TbXMwkFh/Tt2OAan1bl0F7Z6nTIAq/DpqlindBmnEElKooy7Yaa8mB5+AaegF5rqOJC9LvVx5N4VbBVaXPJLXvLI2ki3FMRjRJMEcN4plYfEmeaUcfJh0ryJxjkFwz+6gsfJkpKJzcN5ajYlgyJQ2lt1ptlMGUbw2bGMatlBcumwy7RaPmvhytH3emPI8Jw5AzeEQlxWjSmYrhCqIooiuTcs6Fcqp2lKDBpKnsdhVz/ah5GXIxcmthyO16kwTrPWiM95GrC44deloAtXWw5HK4tHEKW0dUPLa0ALJTYdjlMrfBCltHRiuhL1FcWU9HMlR7iac86ojT4V+r5FV2NfRAuKcMvcck7WD7PR+rirsUlZ3SOW9UlhHSYNC1fbfRdZkLh/ie0jTgkVW4iYrbSDu5ZLznQ84y45GOWBEBZuBNnmL7OON4NK50fx/bhdE64gfcMX4z3r8VLDvKSCtGNaM2b13Yr8vFlSFr1T9FNPlz020I3v6t8ArsRBqmvVKR4G5vfqUmRP79JPW1urFT0Jq99unEe701CeBbeybI/Rg3qZv7rIduvXK673c/iZ4aw+cCySufCox8jzAoms+sj1eF+uAND8vBbeg2byGsB+bBIRWBWvQcsy9mMmSalxRM6JyiJOJERiKaaT2MMxoaPB1CFpnl69vlKc45C6eQnQvxqlJUnOtNcRT3qrcAdntP7sDtGMOxon9p99iCRgmsztxLG5SxqMq7uGGW9YWCLtHvgDas+qCl097dFYV0qMUBwIV9N1CAsLq+AvECUcwPRYTuoBjYsNL3APMabgqa+52kP2JaNMe3DI6VzTWBUY9334yJfab6ad/AL10ySFlFQAA</value>
   </data>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>43</value>
-  </metadata>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
+  </data>
 </root>
