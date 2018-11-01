@@ -37,6 +37,8 @@
             this.SearchLabel = new System.Windows.Forms.Label();
             this.SearchSongButton = new System.Windows.Forms.Button();
             this.SearchResultListView = new System.Windows.Forms.ListView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Search
@@ -99,9 +101,9 @@
             this.SearchLabel.AutoSize = true;
             this.SearchLabel.Location = new System.Drawing.Point(187, 136);
             this.SearchLabel.Name = "SearchLabel";
-            this.SearchLabel.Size = new System.Drawing.Size(85, 13);
+            this.SearchLabel.Size = new System.Drawing.Size(91, 13);
             this.SearchLabel.TabIndex = 17;
-            this.SearchLabel.Text = "Keyword Search";
+            this.SearchLabel.Text = "Keyword Search: ";
             // 
             // SearchSongButton
             // 
@@ -121,11 +123,22 @@
             this.SearchResultListView.UseCompatibleStateImageBehavior = false;
             this.SearchResultListView.SelectedIndexChanged += new System.EventHandler(this.SearchResultListView_SelectedIndexChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MusicPlayer.Properties.Resources.AppLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(52, 96);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // Searchs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(831, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SearchResultListView);
             this.Controls.Add(this.SearchSongButton);
             this.Controls.Add(this.SearchLabel);
@@ -137,6 +150,7 @@
             this.Controls.Add(this.Singer);
             this.Name = "Searchs";
             this.Text = "Search";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,5 +167,6 @@
         private System.Windows.Forms.Label SearchLabel;
         private System.Windows.Forms.Button SearchSongButton;
         private System.Windows.Forms.ListView SearchResultListView;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

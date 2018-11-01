@@ -42,5 +42,15 @@ namespace MusicPlayer
             searchForm.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SingersListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -34,14 +34,17 @@
             this.AlbumBtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.SingersBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // FavoritesListBox
             // 
             this.FavoritesListBox.FormattingEnabled = true;
-            this.FavoritesListBox.Location = new System.Drawing.Point(196, 148);
+            this.FavoritesListBox.Location = new System.Drawing.Point(286, 162);
             this.FavoritesListBox.Name = "FavoritesListBox";
-            this.FavoritesListBox.Size = new System.Drawing.Size(157, 212);
+            this.FavoritesListBox.Size = new System.Drawing.Size(259, 212);
             this.FavoritesListBox.TabIndex = 11;
             // 
             // SearchBtn
@@ -93,11 +96,33 @@
             this.SingersBtn.UseVisualStyleBackColor = true;
             this.SingersBtn.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(283, 146);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Favorite songs: ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MusicPlayer.Properties.Resources.AppLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(47, 123);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // MyFavoriteSongs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(831, 450);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.AlbumBtn);
@@ -108,7 +133,9 @@
             this.Name = "MyFavoriteSongs";
             this.Text = "My Favorite Songs";
             this.Load += new System.EventHandler(this.MyFavoriteSongs_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -119,5 +146,7 @@
         private System.Windows.Forms.Button AlbumBtn;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button SingersBtn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

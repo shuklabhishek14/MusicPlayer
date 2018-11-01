@@ -34,6 +34,8 @@
             this.Favorite = new System.Windows.Forms.Button();
             this.Singer = new System.Windows.Forms.Button();
             this.CategoryListBox = new System.Windows.Forms.ListBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Search
@@ -92,11 +94,22 @@
             this.CategoryListBox.Size = new System.Drawing.Size(205, 212);
             this.CategoryListBox.TabIndex = 11;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MusicPlayer.Properties.Resources.AppLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(45, 126);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(831, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CategoryListBox);
             this.Controls.Add(this.Search);
             this.Controls.Add(this.Genre);
@@ -105,6 +118,7 @@
             this.Controls.Add(this.Singer);
             this.Name = "Category";
             this.Text = "Category";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -117,5 +131,6 @@
         private System.Windows.Forms.Button Favorite;
         private System.Windows.Forms.Button Singer;
         private System.Windows.Forms.ListBox CategoryListBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -96,5 +96,15 @@ namespace MusicPlayer
                 "Rock", "Grunge", "PopMusic", "Jazz", "Folk", "Blues", "HipHop", "Classical", "Reggae", "Country"
             };
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

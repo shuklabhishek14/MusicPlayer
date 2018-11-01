@@ -35,6 +35,10 @@
             this.Singer = new System.Windows.Forms.Button();
             this.SingersListBox = new System.Windows.Forms.ListBox();
             this.SongsListBox = new System.Windows.Forms.ListBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Search
@@ -88,24 +92,57 @@
             // SingersListBox
             // 
             this.SingersListBox.FormattingEnabled = true;
-            this.SingersListBox.Location = new System.Drawing.Point(173, 134);
+            this.SingersListBox.Location = new System.Drawing.Point(235, 156);
             this.SingersListBox.Name = "SingersListBox";
             this.SingersListBox.Size = new System.Drawing.Size(168, 212);
             this.SingersListBox.TabIndex = 11;
+            this.SingersListBox.SelectedIndexChanged += new System.EventHandler(this.SingersListBox_SelectedIndexChanged);
             // 
             // SongsListBox
             // 
             this.SongsListBox.FormattingEnabled = true;
-            this.SongsListBox.Location = new System.Drawing.Point(510, 134);
+            this.SongsListBox.Location = new System.Drawing.Point(510, 156);
             this.SongsListBox.Name = "SongsListBox";
             this.SongsListBox.Size = new System.Drawing.Size(168, 212);
             this.SongsListBox.TabIndex = 12;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MusicPlayer.Properties.Resources.AppLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(71, 87);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(235, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Singers :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(507, 137);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Songs:";
             // 
             // Singers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(831, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SongsListBox);
             this.Controls.Add(this.SingersListBox);
             this.Controls.Add(this.Search);
@@ -115,7 +152,9 @@
             this.Controls.Add(this.Singer);
             this.Name = "Singers";
             this.Text = "Singers";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -127,5 +166,8 @@
         private System.Windows.Forms.Button Singer;
         private System.Windows.Forms.ListBox SingersListBox;
         private System.Windows.Forms.ListBox SongsListBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
